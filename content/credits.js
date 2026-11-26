@@ -621,6 +621,16 @@ FD.credits = [
 "provider": "Wikimedia Commons"
 },
 {
+"file": "assets/img/fabrics/care-label.jpg",
+"w": 960,
+"h": 720,
+"title": "Pflegesymbole Etikett",
+"author": "GinetexGermany",
+"license": "CC BY-SA 3.0",
+"source": "https://commons.wikimedia.org/wiki/File:Pflegesymbole_Etikett.jpg",
+"provider": "Web"
+},
+{
 "file": "assets/img/fabrics/chiffon.jpg",
 "w": 960,
 "h": 960,
@@ -629,6 +639,16 @@ FD.credits = [
 "license": "Public domain",
 "source": "https://commons.wikimedia.org/wiki/File:First_Lady_Betty_Ford%27s_green_chiffon_gown_with_cape_(cropped).jpg",
 "provider": "Wikimedia Commons"
+},
+{
+"file": "assets/img/fabrics/corduroy.jpg",
+"w": 960,
+"h": 720,
+"title": "Mansestr",
+"author": "Ludek",
+"license": "CC BY-SA 3.0",
+"source": "https://commons.wikimedia.org/wiki/File:Mansestr.jpg",
+"provider": "Web"
 },
 {
 "file": "assets/img/fabrics/cotton-boll.jpg",
@@ -661,6 +681,16 @@ FD.credits = [
 "provider": "Wikimedia Commons"
 },
 {
+"file": "assets/img/fabrics/crepe.jpg",
+"w": 960,
+"h": 480,
+"title": "Clay - Crepe Georgette (Rico Cilliers and colormass via Poly Haven)",
+"author": "Rico Cilliers (Processing) colormass (Photography)",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Clay_-_Crepe_Georgette_(Rico_Cilliers_and_colormass_via_Poly_Haven).webp",
+"provider": "Web"
+},
+{
 "file": "assets/img/fabrics/denim.jpg",
 "w": 1000,
 "h": 908,
@@ -689,6 +719,16 @@ FD.credits = [
 "license": "CC BY-SA 4.0",
 "source": "https://commons.wikimedia.org/wiki/File:Handloom_Weaver_in_an_exhibition_3.jpg",
 "provider": "Wikimedia Commons"
+},
+{
+"file": "assets/img/fabrics/jersey.jpg",
+"w": 960,
+"h": 720,
+"title": "Singlejersey",
+"author": "teslar",
+"license": "CC BY-SA 3.0",
+"source": "https://commons.wikimedia.org/wiki/File:Singlejersey.jpg",
+"provider": "Web"
 },
 {
 "file": "assets/img/fabrics/jute.jpg",
@@ -809,6 +849,16 @@ FD.credits = [
 "license": "CC BY-SA 3.0",
 "source": "https://commons.wikimedia.org/wiki/File:Blue_velvet.jpg",
 "provider": "Wikimedia Commons"
+},
+{
+"file": "assets/img/fabrics/woven-macro.jpg",
+"w": 819,
+"h": 1250,
+"title": "Jeansfabric",
+"author": "Thegreenj",
+"license": "CC BY-SA 3.0",
+"source": "https://commons.wikimedia.org/wiki/File:Jeansfabric.jpg",
+"provider": "Web"
 },
 {
 "file": "assets/img/fabrics/yarn-cones.jpg",
