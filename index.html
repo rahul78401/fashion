@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Khushi's Atelier</title>
+  <meta name="description" content="Learn fashion design step by step, in simple English and Hindi.">
+  <meta name="theme-color" content="#faf7f2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#141210" media="(prefers-color-scheme: dark)">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Atelier">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+  <header class="bar" id="bar">
+    <div class="bar-l" id="barL"></div>
+    <div class="lang" role="group" aria-label="Language / भाषा">
+      <button type="button" data-act="lang" data-l="en" lang="en">EN</button>
+      <button type="button" data-act="lang" data-l="hi" lang="hi">हिंदी</button>
+    </div>
+    <div class="readbar" id="readbar" hidden></div>
+  </header>
+
+  <main id="view" tabindex="-1"></main>
+
+  <nav class="tabs" id="tabs" aria-label="Main"></nav>
+
+  <div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photo">
+    <button type="button" class="x" data-act="lbclose" aria-label="Close">
+      <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+    <img id="lbImg" alt="">
+    <div class="cap" id="lbCap"></div>
+  </div>
+
+  <noscript><p style="padding:24px;font-family:sans-serif">Please turn on JavaScript to use this site.</p></noscript>
+
+  <!-- engine -->
+  <script src="assets/js/core.js"></script>
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/js/svg.js"></script>
+  <script src="assets/js/flats.js"></script>
+  <!-- modules (learning path order is set by `num` inside each file) -->
+  <script src="content/modules/fashion-basics.js"></script>
+  <script src="content/modules/design-elements.js"></script>
+  <script src="content/modules/color-theory.js"></script>
+  <script src="content/modules/fashion-drawing.js"></script>
+  <script src="content/modules/garment-details.js"></script>
+  <script src="content/modules/fabrics.js"></script>
+  <script src="content/modules/indian-textiles.js"></script>
+  <script src="content/modules/body-measurements.js"></script>
+  <script src="content/modules/pattern-making.js"></script>
+  <script src="content/modules/sewing-basics.js"></script>
+  <script src="content/modules/indian-wear.js"></script>
+  <script src="content/modules/fashion-history.js"></script>
+  <script src="content/modules/design-process.js"></script>
+  <script src="content/glossary.js"></script>
+  <script src="content/credits.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
